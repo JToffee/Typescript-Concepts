@@ -1,0 +1,21 @@
+{
+	"name": "understanding-ts",
+	"version": "1.0.0",
+	"description": "",
+	"deafult": "app.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon dist/app.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.2",
+		"express": "^4.17.3"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.13",
+		"@types/node": "^17.0.21",
+		"nodemon": "^1.19.4"
+	}
+}

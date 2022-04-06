@@ -1,0 +1,28 @@
+{
+	"name": "understanding-ts",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "lite-server",
+		"build": "webpack"
+	},
+	"author": "Sheila Jerotich",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/lodash": "^4.14.180",
+		"clean-webpack-plugin": "^4.0.0",
+		"lite-server": "^2.5.4",
+		"ts-loader": "^9.2.8",
+		"webpack": "^5.70.0",
+		"webpack-cli": "^4.9.2",
+		"webpack-dev-server": "^4.7.4"
+	},
+	"dependencies": {
+		"class-transformer": "^0.3.1",
+		"class-validator": "^0.13.2",
+		"lodash": "^4.17.21",
+		"reflect-metadata": "^0.1.13"
+	}
+}
